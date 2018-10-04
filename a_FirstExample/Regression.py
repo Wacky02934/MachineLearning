@@ -18,7 +18,7 @@ plt.show()
 
 x0 = np.linspace(-2, 4, 100)
 
-# tset
+
 # Get regression model under LSE criterion with degree 'deg'
 def get_model(deg):
     return lambda input_x=x0: np.polyval(np.polyfit(x, y, deg), input_x)
